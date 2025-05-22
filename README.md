@@ -1,9 +1,9 @@
 # iCheck Anti-Counterfeit Verification System – Cardano Integration
 
-This repository contains the full documentation, architecture, roadmap, and diagrams for the **iCheck-led decentralized anti-counterfeit verification system**, designed to help authenticate genuine products using secure QR codes and blockchain transparency.
+This repository contains the full documentation, architecture, roadmap, and diagrams for the **iCheck decentralized anti-counterfeit verification system**, designed to help authenticate genuine products using secure QR codes and blockchain transparency.
 
-> **Submitted to Project Catalyst – Fund XX (2025)**  
-> **Developed by:** [iCheck Corporation](https://icheck.vn)  
+> **Submitted to Project Catalyst – Fund 13 (2024)**  
+> **Developed by:** [iCheck Corporation](https://icheck.com.vn)  
 > **Blockchain Layer:** Cardano (via metadata transactions)  
 > **Scope:** Vietnam-focused pilot, scalable to national infrastructure
 
@@ -19,6 +19,3 @@ iCheck is building a blockchain-integrated product verification system that allo
 - Tamper-proof assurance to prevent counterfeit product circulation
 
 ---
-
-## Repository Structure
-
