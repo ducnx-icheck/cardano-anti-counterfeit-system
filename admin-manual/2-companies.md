@@ -93,3 +93,41 @@ In case a company creates an account, the **Admin** will be the one to approve t
 
 ![Deactive company interface](./assets/deactive-company.jpg)
 
+# 2.4. Blockchain Linking
+
+The **Blockchain Linking** function allows **Admin CMS** to manage the connection or disconnection of a company's account with the **Blockchain system (Cardano)**.
+
+- **ON:** Transactions related to QR codes are automatically pushed to the Blockchain system.  
+- **OFF (default):** Transactions related to QR codes are **NOT** automatically pushed to the Blockchain system.  
+
+**Purpose:** Enables administrators to flexibly turn ON/OFF the synchronization of data to the blockchain for each company.
+
+---
+
+## Step 1: Open the Company List
+Go to the left-side menu → select **Companies**.  
+The system will display the list of all companies currently available in the CMS.
+
+---
+
+## Step 2: Turn ON/OFF Blockchain Linking
+In the **Blockchain** column (on the right side of the screen), you will see a checkbox corresponding to each company.  
+
+**Perform the following actions:**
+- **Tick (ON):** Enable blockchain linking.  
+- **Untick (OFF):** Disable blockchain linking.  
+
+---
+
+## Step 3: Confirm the Action
+After ticking or unticking, click **Confirm** on the confirmation popup.  
+
+The system will:  
+- Process the connection or disconnection of the corresponding blockchain wallet.  
+- Display one of the following messages:  
+  - “**Connection successful.**” when enabling successfully.  
+  - “**Disconnection successful.**” when disabling successfully.  
+  - “**Connection failed. Please try again.**” if an error occurs.
+
+![Link blockchain interface](./assets/link-blockchain.jpg)
+
