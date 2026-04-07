@@ -22,7 +22,7 @@ authentication parameters.
 - **Note:** This constraint is strictly enforced; the option is only
   available during this pre-activation stage.
 
-![](./media/image3.png)
+![](./Screenshot/media/image3.png)
 
 ### **Step 2: Activation Confirmation & API Call**
 
@@ -31,9 +31,9 @@ system immediately packages the metadata (Product name, Batch ID,
 manufacturing date, etc.) and executes an **API call to the Cardano
 Gateway**.
 
-![](./media/image5.png)
+![](./Screenshot/media/image5.png)
 
-![](./media/image1.png)
+![](./Screenshot/media/image1.png)
 
 ### **Step 3: Database Verification -- \'Pending\' Status**
 
@@ -45,7 +45,7 @@ transaction is broadcast.
 - **Meaning:** The transaction has left the internal system and is
   currently in the Cardano Mempool, awaiting validation by Stake Pools.
 
-![](./media/image4.png)
+![](./Screenshot/media/image4.png)
 
 ### **Step 4: Finalizing Init On-chain -- \'Completed\' Status**
 
@@ -57,7 +57,7 @@ callback signal and updates the record.
 - **Data:** A unique, immutable **Transaction Hash** is generated and
   linked to the batch.
 
-![](./media/image6.png)
+![](./Screenshot/media/image6.png)
 
 ## **PART II: REAL-WORLD INTERACTION (SCAN FLOW)**
 
@@ -71,7 +71,7 @@ using the iCheck App or a mobile camera.
   call** to Cardano to timestamp the exact moment the product entered
   consumption.
 
-![](./media/image2.png)
+![](./Screenshot/media/image2.png)
 
 ### **Step 6: Second Scan (Counterfeit Alert)**
 
@@ -80,7 +80,7 @@ If the QR code is duplicated or copied and scanned by a subsequent user:
 - **System Action:** The Backend compares the scan count. Detecting n \>
   1, it triggers a security alert.
 
-![](./media/image7.png)
+![](./Screenshot/media/image7.png)
 
 ## **SUMMARY OF DATA FLOW**
 
